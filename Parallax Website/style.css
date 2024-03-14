@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img-div1{
+  min-height: 100vh;
+  background-image: url(image/kolkata.jpg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.img-div2{
+  min-height: 100vh;
+  background-image: url(image/river.jpg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.img-div3{
+  min-height: 100vh;
+  background-image: url(image/collage.jpg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.img-div4{
+  min-height: 100vh;
+  background-image: url(image/vizag.jpg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.text-div{
+ position: absolute;
+ top: 50%;
+ width: 100%;
+ text-align: center;
+ text-transform: uppercase;
+ color: rgb(51, 8, 8);
+ font-size: 27px;
+ background-color: #ccc;
+
+}
+.section-tag {
+  text-align: center;
+  margin: 30px 50px;
+}
+.section-tag h2{
+  margin-bottom: 10px;
+ 
+}
