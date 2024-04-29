@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+ul li{
+  list-style: none;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: rgb(225, 200, 160);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+span{
+  color: red;
+}
+.nav-text ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.hero-section{
+  background-image: url(picture/hero-section.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hero-text{
+  background-color: #0000006d;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  
+}
+.projects{
+  background-color: rgb(63, 64, 64);
+}
+.project-text{
+  text-align: center;
+  padding: 20px;
+  color: rgba(181, 219, 10, 0.663);
+}
+.project1 img{
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+}
+.project1 img:hover{
+  color: rgb(164, 169, 173);
+}
+.project-card{
+  
+  gap: 20px;
+  place-items: center;
+  
+}
+.about-pic img{
+  height: 200px;
+  border-radius: 10px;
+}
+.about-me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.about-text{
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.about-text button{
+  width: 120px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.contact-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(180, 180, 174);
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-div form input,textarea{
+  padding:5px;
+  border-radius: 7px;
+  background-color: #1c1c1c;
+  color: white;
+}
+.contact-me button{
+  padding: 7px;
+  border-radius: 8px;
+  background-color: rgb(32, 32, 32);
+  color: #fff;
+}
+.social{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.social-link i{
+  padding: 2px;
+  transition: 0.2s ease-in;
+}
+.social-link i:hover{
+  scale: 1.5;
+  transition: 0.2s ease-out;
+}
+footer{
+  text-align: center;
+  padding: 10px;
+}
+@media (min-width:900px){
+  .project-card{
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+  }
+  
+}
